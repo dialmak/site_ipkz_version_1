@@ -1,0 +1,10 @@
+mkdocs-material
+mkdocs-glightbox
+pymdown-extensions
+Pygments
+mkdocs-table-reader-plugin
+openpyxl
+xlrd
+mkdocs-awesome-pages-plugin
+mkdocs-minify-plugin
+neoteroi-mkdocs
