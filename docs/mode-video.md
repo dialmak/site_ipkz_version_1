@@ -6,7 +6,7 @@ title: Відео зміни режиму роботи
 Для збільшення відео натисніть :material-fullscreen:   
 
 <video controls disablepictureinpicture muted>
-  <source src="../assets/video/mode.mp4" type="video/mp4" />Тег video не підтримується вашим браузером.<a href="../assets/video/mode.mp4">Скачати відео.</a>
+  <source src="../assets/video/mode2.mp4" type="video/mp4" />Тег video не підтримується вашим браузером.<a href="../assets/video/mode.mp4">Скачати відео.</a>
 </video>
 
 [:material-arrow-left-top: Повернутися](../web-interface/#select-mode)

@@ -1,10 +1,9 @@
 nav:
     - ІПКЗ : index.md
     - Паспорт: passport.md
-    - Технічний опис та керівництво з експлуатації : datasheet.md
+    - Інструкція по експлуатації : datasheet.md
     - Веб-інтерфейс : web-interface.md
     - Ручне керування : manual-interface.md
-    - Віддалене керування : modbus.md
     - Контакти : contacts.md
 
 
