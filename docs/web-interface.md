@@ -288,7 +288,7 @@ icon: material/web
 
     Для збільшення натисніть на зображенні.
 
-    ![Cторінка Про перетворювач.](./assets/images/about/about-full.png){ width="250"}
+    ![Cторінка Про перетворювач.](./assets/images/about/about-full2.png){ width="250"}
 
 ### Повернутися на головну сторінку { #go-about-main data-toc-label='Повернутися на головну' }
 <div class="annotate" markdown>
