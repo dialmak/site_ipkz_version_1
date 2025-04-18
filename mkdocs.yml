@@ -8,7 +8,7 @@ theme:
 #    text: Cabin Condensed
   icon:
     logo: material/home-lightning-bolt
-    favicon: ./assets/images/favicon.png
+    favicon: ./favicon.png
     annotation: material/chevron-right-circle   
   features:
      - header.autohide
@@ -21,6 +21,7 @@ theme:
      - navigation.top
      - navigation.indexes
   name: material
+  custom_dir: overrides/
   language: uk
   palette: 
   
@@ -99,7 +100,10 @@ markdown_extensions:
         - includes/abbreviations.md
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg  
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
   - pymdownx.critic
   - pymdownx.caret
   - pymdownx.keys
