@@ -1,6 +1,6 @@
 ---
 title: Ручне керування
-icon: material/steering
+icon: material/ship-wheel
 ---
 
 # Ручне керування перетворювачем { #manual-interface data-toc-label='Ручне керування' }
