@@ -4,6 +4,7 @@ nav:
     - Інструкція з експлуатації : datasheet.md
     - Веб-інтерфейс : web-interface.md
     - Ручне керування : manual-interface.md
+    - Помилки та попередження : errors.md
     - Контакти : contacts.md
 
 

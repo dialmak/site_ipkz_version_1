@@ -293,7 +293,7 @@ icon: material/gesture-tap-box
     - Коротке натискання :material-clock-time-one-outline: ручки або права сенсорна зона: негайний перехід між сторінками основних та додаткових даних.
     - Подвійне натискання ручки :material-clock-time-one-outline: :material-clock-time-one-outline: та довге натискання ручки :material-clock-time-ten-outline: або ліва сенсорна зона: повернутися до головної інформаційної сторінки.
 
-## Помилки та попередження перетворювача { #manual-interface-error data-toc-label='Помилки та попередження' }
+
 
 
 
