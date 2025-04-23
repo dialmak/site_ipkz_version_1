@@ -6,6 +6,7 @@ dev_addr: '127.0.0.1:8000'
 theme:
 #  font:
 #    text: Cabin Condensed
+
   icon:
     logo: material/home-lightning-bol
     favicon: ./assets/images/favicon.png
