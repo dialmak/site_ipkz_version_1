@@ -7,8 +7,8 @@ theme:
 #  font:
 #    text: Cabin Condensed
   icon:
-    logo: material/home-lightning-bolt
-    favicon: ./assets/images/icons/favicon.png
+    logo: material/home-lightning-bol
+    favicon: ./assets/images/favicon.png
     annotation: material/chevron-right-circle   
   features:
      - header.autohide
