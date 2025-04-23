@@ -9,7 +9,7 @@ theme:
 
   icon:
     logo: material/home-lightning-bol
-    favicon: ./assets/images/favicon.png
+    favicon: ./assets/images/icons/favicon.png
     annotation: material/chevron-right-circle   
   features:
      - header.autohide
