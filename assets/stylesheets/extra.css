@@ -1,0 +1,16 @@
+.md-grid {
+  max-width: 1600px; 
+}
+
+.tab-example {
+  color: rgb(255, 194, 62);
+}
+
+.tab-const {
+  font-weight: bold;
+  color: rgb(78, 140, 255);
+} 
+
+.wifi {
+  transform: rotate(45deg);
+}
