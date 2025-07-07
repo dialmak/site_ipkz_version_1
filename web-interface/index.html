@@ -1,0 +1,1173 @@
+
+<!doctype html>
+<html lang="uk" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="Ostapchuk Viktor">
+      
+      
+        <link rel="canonical" href="https://pa.texnotek.com.ua/web-interface/">
+      
+      
+        <link rel="prev" href="../datasheet/">
+      
+      
+        <link rel="next" href="../manual-interface/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
+    
+    
+      
+        <title>Веб-інтерфейс - Імпульсний перетворювач катодного захисту ІПКЗ</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+  
+  
+  
+  
+  <style>:root{--md-annotation-icon:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M22%2012a10%2010%200%200%201-10%2010A10%2010%200%200%201%202%2012%2010%2010%200%200%201%2012%202a10%2010%200%200%201%2010%2010m-12%206%206-6-6-6-1.4%201.4%204.6%204.6-4.6%204.6z%22/%3E%3C/svg%3E');}</style>
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="../assets/stylesheets/neoteroi-mkdocs.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+   <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: none; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../assets/javascripts/glightbox.min.js"></script></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#web-interface" class="md-skip">
+          Перейти до змісту
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Хедер">
+    <a href=".." title="Імпульсний перетворювач катодного захисту ІПКЗ" class="md-header__button md-logo" aria-label="Імпульсний перетворювач катодного захисту ІПКЗ" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20v-8H2l10-9 10 9h-3v8zm7-14.31-5 4.5V18h10v-7.81zM11.5 18v-4H9l3.5-7v4H15z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Імпульсний перетворювач катодного захисту ІПКЗ
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Веб-інтерфейс
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Темна тема"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Темна тема" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 2.38 1.19 4.47 3 5.74V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.26c1.81-1.27 3-3.36 3-5.74a7 7 0 0 0-7-7M9 21a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-1H9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Світла тема"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Світла тема" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 1 7 7c0 2.38-1.19 4.47-3 5.74V17a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2.26C6.19 13.47 5 11.38 5 9a7 7 0 0 1 7-7M9 21v-1h6v1a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1m3-17a5 5 0 0 0-5 5c0 2.05 1.23 3.81 3 4.58V16h4v-2.42c1.77-.77 3-2.53 3-4.58a5 5 0 0 0-5-5"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Пошук" placeholder="Пошук" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Шукати">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Очистити" aria-label="Очистити" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Пошук розпочато
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Навігація" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Імпульсний перетворювач катодного захисту ІПКЗ" class="md-nav__button md-logo" aria-label="Імпульсний перетворювач катодного захисту ІПКЗ" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 20v-8H2l10-9 10 9h-3v8zm7-14.31-5 4.5V18h10v-7.81zM11.5 18v-4H9l3.5-7v4H15z"/></svg>
+
+    </a>
+    Імпульсний перетворювач катодного захисту ІПКЗ
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3 2 12h3v8h14v-8h3zm-.5 15v-4H9l3.5-7v4H15z"/></svg>
+  
+  <span class="md-ellipsis">
+    ІПКЗ
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../passport/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 10h5.5L14 4.5zM5 3h10l6 6v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5c0-1.11.89-2 2-2m0 9v2h14v-2zm0 4v2h9v-2z"/></svg>
+  
+  <span class="md-ellipsis">
+    Паспорт
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../datasheet/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 3v15h3V3zm3 2 4 13 3-1-4-13zM5 5v13h3V5zM3 19v2h18v-2z"/></svg>
+  
+  <span class="md-ellipsis">
+    Інструкція з експлуатації
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16.36 14c.08-.66.14-1.32.14-2s-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2m-5.15 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95a8.03 8.03 0 0 1-4.33 3.56M14.34 14H9.66c-.1-.66-.16-1.32-.16-2s.06-1.35.16-2h4.68c.09.65.16 1.32.16 2s-.07 1.34-.16 2M12 19.96c-.83-1.2-1.5-2.53-1.91-3.96h3.82c-.41 1.43-1.08 2.76-1.91 3.96M8 8H5.08A7.92 7.92 0 0 1 9.4 4.44C8.8 5.55 8.35 6.75 8 8m-2.92 8H8c.35 1.25.8 2.45 1.4 3.56A8 8 0 0 1 5.08 16m-.82-2C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2s.06 1.34.14 2M12 4.03c.83 1.2 1.5 2.54 1.91 3.97h-3.82c.41-1.43 1.08-2.77 1.91-3.97M18.92 8h-2.95a15.7 15.7 0 0 0-1.38-3.56c1.84.63 3.37 1.9 4.33 3.56M12 2C6.47 2 2 6.5 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2"/></svg>
+  
+  <span class="md-ellipsis">
+    Веб-інтерфейс
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16.36 14c.08-.66.14-1.32.14-2s-.06-1.34-.14-2h3.38c.16.64.26 1.31.26 2s-.1 1.36-.26 2m-5.15 5.56c.6-1.11 1.06-2.31 1.38-3.56h2.95a8.03 8.03 0 0 1-4.33 3.56M14.34 14H9.66c-.1-.66-.16-1.32-.16-2s.06-1.35.16-2h4.68c.09.65.16 1.32.16 2s-.07 1.34-.16 2M12 19.96c-.83-1.2-1.5-2.53-1.91-3.96h3.82c-.41 1.43-1.08 2.76-1.91 3.96M8 8H5.08A7.92 7.92 0 0 1 9.4 4.44C8.8 5.55 8.35 6.75 8 8m-2.92 8H8c.35 1.25.8 2.45 1.4 3.56A8 8 0 0 1 5.08 16m-.82-2C4.1 13.36 4 12.69 4 12s.1-1.36.26-2h3.38c-.08.66-.14 1.32-.14 2s.06 1.34.14 2M12 4.03c.83 1.2 1.5 2.54 1.91 3.97h-3.82c.41-1.43 1.08-2.77 1.91-3.97M18.92 8h-2.95a15.7 15.7 0 0 0-1.38-3.56c1.84.63 3.37 1.9 4.33 3.56M12 2C6.47 2 2 6.5 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2"/></svg>
+  
+  <span class="md-ellipsis">
+    Веб-інтерфейс
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Зміст">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Зміст
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#connect" class="md-nav__link">
+    <span class="md-ellipsis">
+      Підключення
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comm-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      Якість зв'язку
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#select-theme" class="md-nav__link">
+    <span class="md-ellipsis">
+      Вибір теми
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#main-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      Головна сторінка
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Головна сторінка">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#select-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      Зміна режиму
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#go-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      До налаштувань
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#налаштування" class="md-nav__link">
+    <span class="md-ellipsis">
+      Налаштування
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Налаштування">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#settings-limits" class="md-nav__link">
+    <span class="md-ellipsis">
+      Обмеження струму та напруги
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#settings-pid" class="md-nav__link">
+    <span class="md-ellipsis">
+      ПІД регулятор
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#settings-meter" class="md-nav__link">
+    <span class="md-ellipsis">
+      Eлектролічильник
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#settings-language" class="md-nav__link">
+    <span class="md-ellipsis">
+      Мова інтерфейсу
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#go-about" class="md-nav__link">
+    <span class="md-ellipsis">
+      Перехід до інформації про перетворювач
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#go-main" class="md-nav__link">
+    <span class="md-ellipsis">
+      Повернутися на головну
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#about" class="md-nav__link">
+    <span class="md-ellipsis">
+      Про перетворювач
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Про перетворювач">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#go-about-main" class="md-nav__link">
+    <span class="md-ellipsis">
+      Повернутися на головну
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../manual-interface/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m2 11 2.05.1a7.96 7.96 0 0 1 3.2-5.54L6.13 3.84c-.27-.48-.13-1.09.37-1.37.5-.27 1.09-.11 1.37.37l.93 1.82a8.1 8.1 0 0 1 6.4 0l.93-1.82c.28-.48.87-.64 1.37-.37.5.28.64.89.37 1.37l-1.12 1.72a7.96 7.96 0 0 1 3.2 5.54L22 11a1 1 0 0 1 1 1 1 1 0 0 1-1 1l-2.05-.1a7.96 7.96 0 0 1-3.2 5.54l1.12 1.72c.27.48.13 1.09-.37 1.37-.5.27-1.09.11-1.37-.37l-.93-1.82a8.1 8.1 0 0 1-6.4 0l-.93 1.82c-.28.48-.87.64-1.37.37-.5-.28-.64-.89-.37-1.37l1.12-1.72a7.96 7.96 0 0 1-3.2-5.54L2 13a1 1 0 0 1-1-1 1 1 0 0 1 1-1m7.07.35c.13-.61.46-1.15.93-1.56L8.34 7.25a6 6 0 0 0-2.29 3.95zM12 9c.32 0 .62.05.9.14l1.38-2.69C13.58 6.16 12.81 6 12 6s-1.58.16-2.28.45l1.38 2.69c.28-.09.58-.14.9-.14m2.93 2.35 3.02-.15a6 6 0 0 0-2.29-3.95L14 9.79c.47.41.8.95.93 1.56m0 1.3c-.13.61-.46 1.15-.93 1.56l1.66 2.54a6 6 0 0 0 2.29-3.95zM12 15c-.32 0-.62-.05-.91-.14l-1.37 2.69c.7.29 1.47.45 2.28.45s1.58-.16 2.28-.45l-1.37-2.69c-.29.09-.59.14-.91.14m-2.93-2.35-3.02.15c.22 1.6 1.06 3.01 2.29 3.95L10 14.21c-.47-.41-.8-.95-.93-1.56"/></svg>
+  
+  <span class="md-ellipsis">
+    Ручне керування
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../errors/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2 1 21h22M12 6l7.53 13H4.47M11 10v4h2v-4m-2 6v2h2v-2"/></svg>
+  
+  <span class="md-ellipsis">
+    Помилки та попередження
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../upgrade/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 10.12h-6.78l2.74-2.82c-2.73-2.7-7.15-2.8-9.88-.1a6.887 6.887 0 0 0 0 9.8c2.73 2.7 7.15 2.7 9.88 0 1.36-1.35 2.04-2.92 2.04-4.9h2c0 1.98-.88 4.55-2.64 6.29-3.51 3.48-9.21 3.48-12.72 0-3.5-3.47-3.53-9.11-.02-12.58a8.987 8.987 0 0 1 12.65 0L21 3zM12.5 8v4.25l3.5 2.08-.72 1.21L11 13V8z"/></svg>
+  
+  <span class="md-ellipsis">
+    Оновлення
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contacts/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21.03 6.29 12 .64 2.97 6.29C2.39 6.64 2 7.27 2 8v10c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-.73-.39-1.36-.97-1.71M20 18H4v-8l8 5 8-5zm-8-5L4 8l8-5 8 5z"/></svg>
+  
+  <span class="md-ellipsis">
+    Контакти
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="web-interface">Веб-інтерфейс перетворювача</h1>
+<p>Веб-інтерфейс - це сукупність засобів, за допомогою яких користувач може керувати перетворювачем.</p>
+<ul>
+<li>Доступ з будь-якого пристрою, наприклад, ноутбука, планшета або смартфона.</li>
+<li>Немає прив'язки до конкретного обладнання або операційної системи.</li>
+<li>Простота і зручність у використанні.</li>
+</ul>
+<h2 id="connect">Підключення та відключення</h2>
+<p>Можна використовувати телефон, смартфон , планшет, ноутбук і т.п.<br />
+Взагалі любий електронний прилад, де є модуль <abbr title="Wireless Fidelity">Wi-Fi</abbr> та <abbr title="програма веб-переглядач сайтів">браузер</abbr> <em>Google Chrome</em>, <em>Safari</em>, <em>Mozilla Firefox</em>, <em>Opera</em>, <em>Edge</em> або інший.</p>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled checked/> Відкрийте дверцята шафи перетворювача.</li>
+<li class="task-list-item"><input type="checkbox" disabled checked/> В перетворювачі почне працювати <abbr title="Wireless Fidelity">Wi-Fi</abbr> точка доступу з назвою <code>IPKZ-XXXXXX</code>.<br />
+   Де <code>XXXXXX</code> - це унікальна послідовність цифр від 0 до 9 та латинських букв від A до F. <br />
+   Для прикладу, назва точки доступу <code>IPKZ-F2B1D4</code>.</li>
+<li class="task-list-item"><input type="checkbox" disabled checked/> Потрібно під'єднатися до цієї <abbr title="Wireless Fidelity">Wi-Fi</abbr> мережі <code>IPKZ-F2B1D4</code>. Мережа відкрита й пароль вводити не потрібно.    </li>
+<li class="task-list-item"><input type="checkbox" disabled checked/> Автоматично запуститься <abbr title="програма веб-переглядач сайтів">браузер</abbr> й відкриється Веб-інтерфейс перетворювача.</li>
+<li class="task-list-item"><input type="checkbox" disabled checked/> <abbr title="Wireless Fidelity">Wi-Fi</abbr> точка доступу перетворювача перестане працювати після закриття дверцят шафи.</li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Зверніть увагу!</p>
+<ul>
+<li>З міркувань безпеки до перетворювача дозволяється підключення тільки <strong><mark>одного</mark></strong> електронного приладу.    </li>
+<li>Інший телефон, планшет або ноутбук при спробі з'єднання буде проігнорований!   </li>
+<li>Для під'єднання іншого приладу, потрібно в попередньо підключеному приладі відключити <abbr title="Wireless Fidelity">Wi-Fi</abbr>, або зайти в налаштування мережі та вибрати пункт <strong><mark>Забути</mark></strong> про цю мережу.    </li>
+</ul>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Відкриття Веб-інтерфейсу по <abbr title="Internet Protocol">IP</abbr> адресі</p>
+<p>Якщо з будь-яких причин не працює або не влаштовує автоматичне відкриття бразуера після під'єднання до точки доступу перетворювача, то є можливість відкриття Веб-інтерфейсу вручну. </p>
+<ul>
+<li>Під'єднайтеся до точки доступу перетворювача, її назва починається з <code>IPKZ-</code>.</li>
+<li>Відкрийте улюблений <abbr title="програма веб-переглядач сайтів">браузер</abbr>.</li>
+<li>В адресному рядку браузера наберіть адресу 8.8.8.8 й перейдіть на цю адресу.   </li>
+</ul>
+</div>
+<h2 id="comm-control">Контроль якості зв'язку</h2>
+<p>Перетворювач контролює якість <abbr title="Wireless Fidelity">Wi-Fi</abbr> зв'язку між ним та підключеним пристроєм. <br />
+Після назви сторінки є піктограма <a class="glightbox" href="../assets/svg/wifi1.svg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Відмінна якість зв'язку." src="../assets/svg/wifi1.svg" /></a>, яка показує реальну якість зв'язку.</p>
+<p><a class="glightbox" href="../assets/images/theme/wifi.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Якість звязку" src="../assets/images/theme/wifi.png" /></a></p>
+<ul>
+<li>Відмінна якість зв'язку <a class="glightbox" href="../assets/svg/wifi1.svg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Відмінна якість зв'язку." src="../assets/svg/wifi1.svg" /></a></li>
+<li>Середня якість зв'язку <a class="glightbox" href="../assets/svg/wifi2.svg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Середня якість зв'язку." src="../assets/svg/wifi2.svg" /></a></li>
+<li>Погана якість зв'язку <a class="glightbox" href="../assets/svg/wifi3.svg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Погана якість зв'язку." src="../assets/svg/wifi3.svg" /></a></li>
+<li>З'єднання втрачено <a class="glightbox" href="../assets/svg/wifi4.svg" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="З'єднання втрачено." src="../assets/svg/wifi4.svg" /></a></li>
+</ul>
+<p>Насправді якість з'язку повинна бути відмінна завжди, тому що оператор знаходиться в метрі або декількох метрах від перетворювача. </p>
+<div class="admonition note">
+<p class="admonition-title">Якщо є підозра, що сторінка зависла</p>
+<p>Потрібно оновити або перезавантажити Веб-інтерфейс засобами браузера. <br />
+В <abbr title="Операційна система">Windows</abbr> та <abbr title="Операційна система">Linux</abbr> оновити сторінку можна через пункт меню <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.65 6.35A7.96 7.96 0 0 0 12 4a8 8 0 0 0-8 8 8 8 0 0 0 8 8c3.73 0 6.84-2.55 7.73-6h-2.08A5.99 5.99 0 0 1 12 18a6 6 0 0 1-6-6 6 6 0 0 1 6-6c1.66 0 3.14.69 4.22 1.78L13 11h7V4z"/></svg></span> або клавішу <span class="keys"><kbd class="key-f5">F5</kbd></span> або <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-r">R</kbd></span>.  <br />
+Для повного перезавантаження Веб-інтерфейсу використовуйте комбінацію клавіш <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-f5">F5</kbd></span> або <span class="keys"><kbd class="key-shift">Shift</kbd><span>+</span><kbd class="key-f5">F5</kbd></span> або <span class="keys"><kbd class="key-control">Ctrl</kbd><span>+</span><kbd class="key-shift">Shift</kbd><span>+</span><kbd class="key-r">R</kbd></span>.   <br />
+В <abbr title="Операційна система">Android</abbr> та <abbr title="Операційна система">iOS</abbr> через пункт меню <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17.65 6.35A7.96 7.96 0 0 0 12 4a8 8 0 0 0-8 8 8 8 0 0 0 8 8c3.73 0 6.84-2.55 7.73-6h-2.08A5.99 5.99 0 0 1 12 18a6 6 0 0 1-6-6 6 6 0 0 1 6-6c1.66 0 3.14.69 4.22 1.78L13 11h7V4z"/></svg></span> або <abbr title="керуючий жест для сенсорного екрану, під час якого палець кладуть на екран і проводять у будь-якому напрямку">свайпом</abbr> <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 9a1 1 0 0 1 1-1 1 1 0 0 1 1 1v4.47l1.21.13 4.94 2.19c.53.24.85.77.85 1.35v4.36c-.03.82-.68 1.47-1.5 1.5H11c-.38 0-.74-.15-1-.43l-4.9-4.2.74-.77c.19-.21.46-.32.74-.32h.22L10 19zM1 9l3 3 3-3H5V3H3v6z"/></svg></span> з середини екрану донизу.   </p>
+<p>Як альтернативний варіант - відключитись від точки доступу й підключитись до неї знову. </p>
+</div>
+<h2 id="select-theme">Вибір теми інтерфейсу</h2>
+<p>Можна вибрати темну або світлу тему інтерфейсу.</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="скріншот-світлої-теми" name="__tabbed_1" type="radio" /><input id="скріншот-темнної-теми" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="скріншот-світлої-теми"><abbr title="Знімок екрану">Скріншот</abbr> світлої теми</label><label for="скріншот-темнної-теми"><abbr title="Знімок екрану">Скріншот</abbr> темнної теми</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><a class="glightbox" href="../assets/images/theme/white.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Світла тема Веб-інтерфейсу" src="../assets/images/theme/white.png" /></a></p>
+</div>
+<div class="tabbed-block">
+<p><a class="glightbox" href="../assets/images/theme/dark.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Темна тема Веб-інтерфейсу" src="../assets/images/theme/dark.png" /></a></p>
+</div>
+</div>
+</div>
+<div class="annotate">
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled checked/> Для зміни теми потрібно зайти в системне меню (1) клацнувши <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg></span> </li>
+<li class="task-list-item"><input type="checkbox" disabled checked/> Клацнути на піктограмму напівмісяця <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M223.5 32C100 32 0 132.3 0 256s100 224 223.5 224c60.6 0 115.5-24.2 155.8-63.4 5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6-96.9 0-175.5-78.8-175.5-176 0-65.8 36-123.1 89.3-153.3 6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z"/></svg></span> для переключення теми (2)</li>
+<li class="task-list-item"><input type="checkbox" disabled checked/> Клацнути <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.46 12 19 17.54V19h-1.46L12 13.46 6.46 19H5v-1.46L10.54 12 5 6.46V5h1.46L12 10.54 17.54 5H19v1.46z"/></svg></span> для виходу з системного меню (3)</li>
+</ul>
+</div>
+<ol>
+<li><a class="glightbox" href="../assets/images/theme/theme-1.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Зайти в системне меню." src="../assets/images/theme/theme-1.png" /></a> </li>
+<li><a class="glightbox" href="../assets/images/theme/theme-2.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Переключення теми." src="../assets/images/theme/theme-2.png" /></a> </li>
+<li><a class="glightbox" href="../assets/images/theme/theme-3.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Вийти з системного меню." src="../assets/images/theme/theme-3.png" /></a> </li>
+</ol>
+<p><strong><em>Коротке <a href="../theme-video/">відео</a> зміни теми інтерфейсу.</em></strong></p>
+<h2 id="main-page">Головна сторінка</h2>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="опис-головної-сторінки" name="__tabbed_2" type="radio" /><input id="скріншот-головної-сторінки" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="опис-головної-сторінки">Опис головної сторінки</label><label for="скріншот-головної-сторінки"><abbr title="Знімок екрану">Скріншот</abbr> головної сторінки</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>На головній сторінці розміщені основні дані перетворювача:   </p>
+<ul>
+<li>Дата та час перетворювача.   </li>
+<li>Поточний режим роботи та вихідні параметри.     </li>
+<li>Показники електролічильника.   </li>
+<li>Температурні показники.    </li>
+<li>Тривалість експлуатації. </li>
+</ul>
+<p>Тут також є декілька пунктів меню:  </p>
+<ul>
+<li><a href="#select-mode">Зміна режиму роботи.</a></li>
+<li><a href="#go-settings">Перехід на сторінку <em>Налаштування</em>.</a>    </li>
+</ul>
+</div>
+<div class="tabbed-block">
+<p>Для збільшення натисніть на зображенні.</p>
+<p><a class="glightbox" href="../assets/images/main/main.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Головна сторінка." src="../assets/images/main/main.png" width="250" /></a>  </p>
+</div>
+</div>
+</div>
+<h3 id="select-mode">Зміна режиму роботи</h3>
+<div class="annotate">
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled checked/> Для відключення виходу або переходу в режим стабілізації напруги, струму чи потенціалу в пункті <em>Вибір режиму</em> (1) потрібно клацнути <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"/></svg></span>.</li>
+<li class="task-list-item"><input type="checkbox" disabled checked/> Далі клацніть на потрібний режим роботи (2) у меню, що з'явилося. </li>
+<li class="task-list-item"><input type="checkbox" disabled checked/> З'явиться повзунок (слайдер), в якому треба встановити значення уставки.   </li>
+<li>Перший спосіб. Потягнути повзунок вліво або вправо (3)  при цьому контролюючи новий показник повзунка.  </li>
+<li>Другий спосіб. Клацнути на показник повзунка (4) та ввести нове значення й підтвердити кнопкою <em>ОК</em> (5)  </li>
+</ul>
+</div>
+<ol>
+<li><a class="glightbox" href="../assets/images/mode/mode1.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Зміна режиму." src="../assets/images/mode/mode1.png" /></a> </li>
+<li><a class="glightbox" href="../assets/images/mode/mode2.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Вибір режиму." src="../assets/images/mode/mode2.png" /></a> </li>
+<li><a class="glightbox" href="../assets/images/mode/mode3.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Встановлення уставки. Перший спосіб." src="../assets/images/mode/mode3.png" /></a> </li>
+<li><a class="glightbox" href="../assets/images/mode/mode4.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Встановлення уставки. Другий спосіб." src="../assets/images/mode/mode4.png" /></a> </li>
+<li><a class="glightbox" href="../assets/images/mode/mode5.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Підтверження нової уставки. Другий спосіб." src="../assets/images/mode/mode5.png" /></a> </li>
+</ol>
+<p><strong><em>Коротке <a href="../mode-video/">відео</a> зміни режиму роботи.</em></strong></p>
+<div class="admonition warning">
+<p class="admonition-title">Зверніть увагу!</p>
+<p>Допустимий діапазон значення уставки cтруму залежить від моделі перетворювача (номінальної потужності). <br />
+При введенні значення поза діапазоном - це значення буде автоматично змінено до допустимоі межи.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Модель</strong></th>
+<th><strong>Допустимий діапазон<br>струму для уставки, A</strong></th>
+<th><strong>Допустимий діапазон<br>напруги для уставки, V</strong></th>
+<th><strong>Допустимий діапазон<br>потенціалу для уставки, V</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ІПКЗ-600-50</td>
+<td>Від 0 до 13.0</td>
+<td>Від 0 до 51.0</td>
+<td>Від -5.00 до 0</td>
+</tr>
+<tr>
+<td>ІПКЗ-1200-50</td>
+<td>Від 0 до 25.0</td>
+<td>Від 0 до 51.0</td>
+<td>Від -5.00 до 0</td>
+</tr>
+<tr>
+<td>ІПКЗ-2400-50</td>
+<td>Від 0 до 49.0</td>
+<td>Від 0 до 51.0</td>
+<td>Від -5.00 до 0</td>
+</tr>
+<tr>
+<td>ІПКЗ-3000-50</td>
+<td>Від 0 до 61.0</td>
+<td>Від 0 до 51.0</td>
+<td>Від -5.00 до 0</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="go-settings">Перехід на сторінку <em>Налаштування</em></h3>
+<div class="annotate">
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled checked/> Для переходу на сторінку <em>Налаштування</em> потрібно клацнути (1) на пункті <em>Налаштування</em>.</li>
+</ul>
+</div>
+<ol>
+<li><a class="glightbox" href="../assets/images/settings/settings1.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Перехід на сторінку Налаштування." src="../assets/images/settings/settings1.png" /></a> </li>
+</ol>
+<h2 id="налаштування">Налаштування</h2>
+<div class="tabbed-set tabbed-alternate" data-tabs="3:2"><input checked="checked" id="опис-сторінки" name="__tabbed_3" type="radio" /><input id="скріншот-сторінки" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="опис-сторінки">Опис сторінки</label><label for="скріншот-сторінки"><abbr title="Знімок екрану">Скріншот</abbr> сторінки</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>На сторінці є наступні налаштування:   </p>
+<ul>
+<li><a href="#settings-limits">Обмеження вихідного струму та напруги при аварії.</a></li>
+<li><a href="#settings-pid">Налаштування <abbr title="Пропорційно-інтегрально-диференціальний">ПІД</abbr> регулятора.</a>      </li>
+<li><a href="#settings-meter">Налаштування електролічильника.</a>    </li>
+<li><a href="#settings-language">Вибір мови інтерфейсу.</a></li>
+</ul>
+<p>Тут також є пункти меню:  </p>
+<ul>
+<li><a href="#go-about">Перехід на сторінку <em>Про перетворювач</em>.</a></li>
+<li><a href="#go-main"><em>Повернутися на головну</em> сторінку.</a> </li>
+</ul>
+</div>
+<div class="tabbed-block">
+<p>Для збільшення натисніть на зображенні.</p>
+<p><a class="glightbox" href="../assets/images/settings/settings2.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Cторінка налаштувань." src="../assets/images/settings/settings2.png" width="250" /></a>  </p>
+</div>
+</div>
+</div>
+<h3 id="settings-limits">Обмеження вихідного струму та напруги при аварії</h3>
+<ul class="task-list">
+<li>В пункті <em>Струм при обриві електрода</em> обмежується максмимальний струм при обриві мідносульфатного електрода порівняння.</li>
+<li>В пункті <em>Напруга при обриві навантаження</em> обмежується максмимальна напруга при обриві ланцюгів навантаження.</li>
+<li>В пункті <em>Затримка при зміні режиму</em> задається затримка в секундах перед зміною режиму роботи при аваріях.</li>
+<li>
+<p>Заводське значення 5.0A, 5.0V та 60 секунд відповідно.  </p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" disabled checked/> Для зміни обмеженнь та затримки потрібно клацнути на поточне значення параметра та ввести нове значення й підтвердити кнопкою <em>ОК</em>.</p>
+</li>
+</ul>
+<p><strong><em>Коротке <a href="../limits-video/">відео</a> налаштування обмеження.</em></strong></p>
+<div class="admonition warning">
+<p class="admonition-title">Зверніть увагу!</p>
+<p>Допустимий діапазон значення обмежень струму та напруги залежить від моделі перетворювача (номінальної потужності). <br />
+При введенні значення поза діапазоном з'явиться спливаюче червоне вікно з помилкою.   </p>
+<table>
+<thead>
+<tr>
+<th><strong>Модель</strong></th>
+<th><strong>Допустимий діапазон<br>обмежень струму, A</strong></th>
+<th><strong>Допустимий діапазон<br>обмежень напруги, V</strong></th>
+<th><strong>Допустимий діапазон<br>затримки, секунд</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ІПКЗ-600-50</td>
+<td>Від 0 до 13.0</td>
+<td>Від 0 до 51.0</td>
+<td>Від 0 до 300</td>
+</tr>
+<tr>
+<td>ІПКЗ-1200-50</td>
+<td>Від 0 до 25.0</td>
+<td>Від 0 до 51.0</td>
+<td>Від 0 до 300</td>
+</tr>
+<tr>
+<td>ІПКЗ-2400-50</td>
+<td>Від 0 до 49.0</td>
+<td>Від 0 до 51.0</td>
+<td>Від 0 до 300</td>
+</tr>
+<tr>
+<td>ІПКЗ-3000-50</td>
+<td>Від 0 до 61.0</td>
+<td>Від 0 до 51.0</td>
+<td>Від 0 до 300</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="settings-pid">Налаштування <abbr title="Пропорційно-інтегрально-диференціальний">ПІД</abbr> регулятора</h3>
+<p><abbr title="Пропорційно-інтегрально-диференціальний">ПІД</abbr> регулятор стабілізує потенціал в режимі стабілізації потенціалу. Параметрами <abbr title="Пропорційно-інтегрально-диференціальний">ПІД</abbr> регулятора є три коефіцієнти: пропорційний, інтегральний та диференціальний. Ці коефіцієнти відповідають за швидкість стабілізації, стабільність та точність підтримання потенціалу згідно уставки. </p>
+<p>Існує два режими роботи <abbr title="Пропорційно-інтегрально-диференціальний">ПІД</abbr> регулятора: стандартний та ручний режим.</p>
+<p>В стандартному режимі коефіцієнти задані виробником: </p>
+<ul>
+<li>Пропорційний та інтегральний коефіцієнти дорівнюють 1.0.</li>
+<li>Диференціальний коефіцієнт дорівнює 0.3.</li>
+</ul>
+<p>В ручному режимі є можливість змінити коефіцієнти, якщо швидкість стабілізації або стабільність чи точність підтримання потенціалу згідно уставки незадовільна. Таке може статися при умовах нестандартної інерційності кола навантаження.</p>
+<div class="annotate">
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled checked/> Для налаштування в пункті <em>Вибір режиму</em> (1) потрібно клацнути <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"/></svg></span>.</li>
+<li class="task-list-item"><input type="checkbox" disabled checked/> Далі клацніть на <em>Стандартний режим</em> або <em>Ручний режим</em> (2) у меню, що з'явилося. </li>
+<li class="task-list-item"><input type="checkbox" disabled checked/> Для зміни коефіцієнтів потрібно клацнути на поточне значення (3) та ввести нове значення (4) й підтвердити кнопкою <em>ОК</em>.</li>
+</ul>
+</div>
+<ol>
+<li><a class="glightbox" href="../assets/images/pid/pid1.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Вибір режиму ПІД регулятора." src="../assets/images/pid/pid1.png" /></a> </li>
+<li><a class="glightbox" href="../assets/images/pid/pid2.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Ручний режим." src="../assets/images/pid/pid2.png" /></a> </li>
+<li><a class="glightbox" href="../assets/images/pid/pid3.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Зміна пропорційного коефіцієнта." src="../assets/images/pid/pid3.png" /></a> </li>
+<li><a class="glightbox" href="../assets/images/pid/pid4.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Нове значення пропорційного коефіцієнта." src="../assets/images/pid/pid4.png" /></a> </li>
+</ol>
+<p><strong><em>Коротке <a href="../pid-video/">відео</a> налаштування <abbr title="Пропорційно-інтегрально-диференціальний">ПІД</abbr> регулятора.</em></strong></p>
+<div class="admonition warning">
+<p class="admonition-title">Зверніть увагу!</p>
+<p>Допустимий діапазон значеннь коефіцієнтів <abbr title="Пропорційно-інтегрально-диференціальний">ПІД</abbr> регулятора викладено в таблиці.<br />
+При введенні значення поза діапазоном - з'явиться спливаюче червоне вікно з помилкою.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Режим</strong></th>
+<th><strong>Допустимий діапазон<br>пропорційного коефіцієнту</strong></th>
+<th><strong>Допустимий діапазон<br>інтегрального коефіцієнту</strong></th>
+<th><strong>Допустимий діапазон<br>диференціального коефіцієнтіу</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ручний</td>
+<td>Від 0.1 до 10.0</td>
+<td>Від 0.1 до 10.0</td>
+<td>Від 0.1 до 10.0</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="settings-meter">Налаштування електролічильника</h3>
+<ul class="task-list">
+<li>В пункті <em>Показник лічильника</em> вводиться поточний показник лічильника.</li>
+<li>
+<p>В пункті <em>Імпульсів за kW⋅h</em> вводиться кількість імпульсів, які виробляє лічильник електроенергії перетворювача за одну kW⋅h. <br />
+  Цей параметр вказується в паспорті на встановлений лічильник електроенергії. <br />
+  Заводське значення 6400 для встановленного лічильника.  </p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" disabled checked/> Для зміни налаштувань лічильника потрібно клацнути на поточне значення параметра та ввести нове значення й підтвердити кнопкою <em>ОК</em>.</p>
+</li>
+</ul>
+<p><strong><em>Коротке <a href="../meter-video/">відео</a> налаштування електролічильника.</em></strong></p>
+<div class="admonition warning">
+<p class="admonition-title">Зверніть увагу!</p>
+<p>Допустимий діапазон значеннь викладено в таблиці.  <br />
+При введенні значення поза діапазоном - з'явиться спливаюче червоне вікно з помилкою.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Допустимий діапазон показника лічильника, kW⋅h</strong></th>
+<th><strong>Допустимий діапазон кількісті імпульсів за kW⋅h, imp/kW⋅h</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Від 0 до 999999.000</td>
+<td>Від 100 до 10000</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="settings-language">Зміна мови інтерфейсу</h3>
+<div class="annotate">
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled checked/> Для зміни мови інтерфейсу в пункті <em>Вибір мови</em> (1) потрібно клацнути <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"/></svg></span>.</li>
+<li class="task-list-item"><input type="checkbox" disabled checked/> Далі виберіть необхідну мову (2) у меню, що з'явилося. </li>
+<li class="task-list-item"><input type="checkbox" disabled checked/> Сторінка зміниться й поточною сторінкою стане головна (3) з іншою мовою в інтерфейсі. </li>
+</ul>
+</div>
+<ol>
+<li><a class="glightbox" href="../assets/images/language/language1.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Зміна мови." src="../assets/images/language/language1.png" /></a> </li>
+<li><a class="glightbox" href="../assets/images/language/language2.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Вибір новоі мови." src="../assets/images/language/language2.png" /></a></li>
+<li><a class="glightbox" href="../assets/images/language/language3.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Інтерфейс з новою мовою." src="../assets/images/language/language3.png" /></a></li>
+</ol>
+<h3 id="go-about">Перехід на сторінку <em>Про перетворювач</em></h3>
+<div class="annotate">
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled checked/> Перехід на сторінку <em>Про перетворювач</em> відбудеться, якщо клацнути (1) відповідний пункт меню.</li>
+</ul>
+</div>
+<ol>
+<li><a class="glightbox" href="../assets/images/about/about1.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Перехід на сторінку Про перетворювач." src="../assets/images/about/about1.png" /></a> </li>
+</ol>
+<h3 id="go-main">Повернутися на головну сторінку</h3>
+<div class="annotate">
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled checked/> Перехід на головну сторінку відбудеться, якщо клацнути (1) відповідну кнопку блакитного кольору.</li>
+</ul>
+</div>
+<ol>
+<li><a class="glightbox" href="../assets/images/main/main1.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Перехід на головну сторінку." src="../assets/images/main/main1.png" /></a> </li>
+</ol>
+<h2 id="about">Про перетворювач</h2>
+<div class="tabbed-set tabbed-alternate" data-tabs="4:2"><input checked="checked" id="опис-сторінки_1" name="__tabbed_4" type="radio" /><input id="скріншот-сторінки_1" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="опис-сторінки_1">Опис сторінки</label><label for="скріншот-сторінки_1"><abbr title="Знімок екрану">Скріншот</abbr> сторінки</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>На сторінці знаходиться інформація про перетворювач. <br />
+Дані, які виділені  <span class="tab-example">жовтим кольором</span> для кожного перетворювача різні. Вони показані для прикладу.</p>
+<table>
+<thead>
+<tr>
+<th class="tab-const">Основні дані:</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Модель</td>
+<td class="tab-example">ІПКЗ-1200-50</td>
+</tr>
+<tr>
+<td>Номінальна потужність, W</td>
+<td class="tab-example">1200</td>
+</tr>
+<tr>
+<td>Серійний номер</td>
+<td class="tab-example">1001</td>
+</tr>
+<tr>
+<td><abbr title="Ідентифікатор">ID</abbr> номер</td>
+<td class="tab-example">15905236</td>
+</tr>
+<tr>
+<td>Рік виготовлення</td>
+<td class="tab-example">2025</td>
+</tr>
+<tr>
+<td>Версія апаратного забезпечення</td>
+<td class="tab-example">1.0</td>
+</tr>
+<tr>
+<td>Версія програмного забезпечення</td>
+<td class="tab-example">1.2</td>
+</tr>
+<tr>
+<td class="tab-const"><abbr title="Wireless Fidelity">Wi-Fi</abbr> точка доступу:</td>
+<td></td>
+</tr>
+<tr>
+<td>Назва точки доступу</td>
+<td class="tab-example">PKZ-F2B1D4</td>
+</tr>
+<tr>
+<td><abbr title="Internet Protocol">IP</abbr> адреса</td>
+<td>8.8.8.8</td>
+</tr>
+<tr>
+<td>MAC адреса</td>
+<td class="tab-example">DE:54:75:F2:B1:D4</td>
+</tr>
+<tr>
+<td>Макс. кількість підключень</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<p>Тут також є пункт меню:  </p>
+<p><a href="#go-about-main"><em>Повернутися на головну</em> сторінку.</a></p>
+</div>
+<div class="tabbed-block">
+<p>Для збільшення натисніть на зображенні.</p>
+<p><a class="glightbox" href="../assets/images/about/about-full2.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Cторінка Про перетворювач." src="../assets/images/about/about-full2.png" width="250" /></a></p>
+</div>
+</div>
+</div>
+<h3 id="go-about-main">Повернутися на головну сторінку</h3>
+<div class="annotate">
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" disabled checked/> Перехід на головну сторінку відбудеться, якщо клацнути (1) відповідну кнопку блакитного кольору.</li>
+</ul>
+</div>
+<ol>
+<li><a class="glightbox" href="../assets/images/about/main.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="Перехід на головну сторінку." src="../assets/images/about/main.png" /></a></li>
+</ol>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Повернутись нагору
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Ostapchuk Viktor &bull; 2025
+    </div>
+  
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+    <a href="mailto:ostap@texnotek.com.ua" target="_blank" rel="noopener" title="" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M498.1 5.6c10.1 7 15.4 19.1 13.5 31.2l-64 416c-1.5 9.7-7.4 18.2-16 23s-18.9 5.4-28 1.6L284 427.7l-68.5 74.1c-8.9 9.7-22.9 12.9-35.2 8.1S160 493.2 160 480v-83.6c0-4 1.5-7.8 4.2-10.8l167.6-182.8c5.8-6.3 5.6-16-.4-22s-15.7-6.4-22-.7L106 360.8l-88.3-44.2C7.1 311.3.3 300.7 0 288.9s5.9-22.8 16.1-28.7l448-256c10.7-6.1 23.9-5.5 34 1.4"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["header.autohide", "content.tooltips", "navigation.tracking", "toc.integrate", "navigation.top", "navigation.indexes"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "\u0421\u043a\u043e\u043f\u0456\u0439\u043e\u0432\u0430\u043d\u043e \u0432 \u0431\u0443\u0444\u0435\u0440", "clipboard.copy": "\u0421\u043a\u043e\u043f\u0456\u044e\u0432\u0430\u0442\u0438 \u0432 \u0431\u0443\u0444\u0435\u0440", "search.result.more.one": "\u0429\u0435 1 \u0437\u0431\u0456\u0433 \u043d\u0430 \u0446\u0456\u0439 \u0441\u0442\u043e\u0440\u0456\u043d\u0446\u0456", "search.result.more.other": "\u0429\u0435 # \u0437\u0431\u0456\u0433\u0456\u0432 \u043d\u0430 \u0446\u0456\u0439 \u0441\u0442\u043e\u0440\u0456\u043d\u0446\u0456", "search.result.none": "\u0417\u0431\u0456\u0433\u0456\u0432 \u043d\u0435 \u0437\u043d\u0430\u0439\u0434\u0435\u043d\u043e", "search.result.one": "\u0417\u043d\u0430\u0439\u0434\u0435\u043d\u043e 1 \u0437\u0431\u0456\u0433", "search.result.other": "\u0417\u043d\u0430\u0439\u0434\u0435\u043d\u043e # \u0437\u0431\u0456\u0433\u0456\u0432", "search.result.placeholder": "\u0420\u043e\u0437\u043f\u043e\u0447\u043d\u0456\u0442\u044c \u043f\u0438\u0441\u0430\u0442\u0438 \u0434\u043b\u044f \u043f\u043e\u0448\u0443\u043a\u0443", "search.result.term.missing": "\u041d\u0435 \u0437\u043d\u0430\u0439\u0434\u0435\u043d\u043e \u0437\u0430\u043f\u0438\u0442\u0443", "select.version": "\u041e\u0431\u0440\u0430\u0442\u0438 \u0432\u0435\u0440\u0441\u0456\u044e"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.56ea9cef.min.js"></script>
+      
+    
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
+</html>
